@@ -1,101 +1,90 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+	return (
+		<>
+			<header className="h-24 w-full flex justify-between p-4">
+				<div id="logo" className="content-center">DM</div>
+				<div>
+					<div id="nav-bar-menu" className="">MENU</div>
+					<button className="mt-1 bg-green-500 h-10 w-28 rounded-md font-bold">
+						Whatsapp
+					</button>
+				</div>
+			</header>
+			<main>
+				<section id="image-banner" className="">
+					<div className="absolute justify-center z-10 px-4 flex flex-col min-h-[34rem]">
+						<h1 className=" text-4xl font-bold">
+							Abogada Previsional
+						</h1>
+						<p className=" text-xl pt-8">
+							Estudio juridico especializado en derecho de la
+							seguridad social
+						</p>
+						<p className=" text-xl pt-10">
+							No dudes en contactarnos:
+						</p>
+						<button className="mt-4 bg-green-500 h-10 w-28 rounded-md font-bold">
+							Whatsapp
+						</button>
+					</div>
+					<div className="min-h-[34rem] relative">
+						<Image
+							src="/images/banner.jpg"
+							alt="banner"
+							fill={true}
+							className="object-cover absolute opacity-25"
+						/>
+					</div>
+				</section>
+				<section id="vision" className="bg-slate-200">
+					<div className="px-4 py-10 text-black">
+						<h2 className="text-3xl font-bold text-center">
+							El objetivo es acompañarlo durante todo el
+							desarrollo de la gestión
+						</h2>
+						<p className="pt-4">
+							Nos enfocamos en brindarle atención personalizada y
+							mantenerlo informado permanentemente sobre el estado
+							de su trámite. Los cambios legislativos, la
+							multiplicidad de jurisdicciones y la excesiva
+							burocracia, lo convierten en una rama poco accesible
+							para el ciudadano común.
+						</p>
+					</div>
+				</section>
+				<section
+					id="service"
+					className="bg-slate-100 px-4 py-10 flex flex-col gap-10 items-center"
+				>
+					<div
+						id="service-card"
+						className="h-60 border-[1px] w-full content-center px-4 border-solid border-slate-300 rounded-sm bg-white"
+					><p className="text-black font-bold text-xl text-center">1- Brindar asesoramiento profesional en la temática previsional, evacuando sus dudas e inquietudes. </p></div>
+					<div
+						id="service-card"
+						className="h-60 border-[1px] w-full content-center px-4 border-solid border-slate-300 rounded-sm bg-white"
+					><p className="text-black font-bold text-xl text-center">2- Tramitar su beneficio previsional, para que obtenga el mejor haber en el menor tiempo posible. </p></div>
+					<div
+						id="service-card"
+						className="h-60 border-[1px] w-full content-center px-4 border-solid border-slate-300 rounded-sm bg-white"
+					><p className="text-black font-bold text-xl text-center">3-Calcular su futura jubilación o si la misma ha sido correctamente liquidada.</p></div>
+                    <div
+						id="service-card"
+						className="h-60 border-[1px] w-full content-center px-4 border-solid border-slate-300 rounded-sm bg-white"
+					><p className="text-black font-bold text-xl text-center">4- asesorar para planificar mejor su futuro retiro.</p></div>
+                    <div
+						id="service-card"
+						className="h-60 border-[1px] w-full content-center px-4 border-solid border-slate-300 rounded-sm bg-white"
+					><p className="text-black font-bold text-xl text-center">5- Patrocinar a  clientes en sus reclamos ante autoridades administrativas y judiciales.</p></div>
+                    <div
+						id="service-card"
+						className="h-60 border-[1px] w-full content-center px-4 border-solid border-slate-300 rounded-sm bg-white"
+					><p className="text-black font-bold text-xl text-center">6- (PUAM) Pension universal para el adulto mayor , Pensión por fallecimiento, pensión por discapacidad. Pension madre de 7 hijos. </p></div>
+				</section>
+			</main>
+			<footer className="p-4 h-10">footer</footer>
+		</>
+	);
 }
