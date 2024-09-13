@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-	background-color: #060a0e;
-	color: #eef2f5;
+* {
+	@apply transition-colors duration-200;
 }
