@@ -84,10 +84,10 @@ const MobileMenu = () => {
 			</button>
 			<nav
 				className={`${
-					!isOpen ? "!w-0" : "w-72"
-				} transition-all duration-200 flex gap-2 lg:w-2/5 flex-wrap text-base md:ml-auto flex-col absolute h-screen z-30 top-0 right-0 bg-white dark:bg-black`}
+					!isOpen ? "w-0 opacity-0" : "w-72 opacity-100"
+				} transition-all duration-200 flex gap-2 lg:w-2/5 flex-wrap text-base md:ml-auto flex-col absolute h-[100svh] z-30 top-0 right-0 bg-white dark:bg-black`}
 			>
-				<div className={` flex w-full p-6`}>
+				<div className={`${!isOpen && "hidden"} flex w-full p-6`}>
 					<button onClick={() => setIsOpen(false)}>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -102,11 +102,11 @@ const MobileMenu = () => {
 					</button>
 				</div>
 				<div
-					className={`flex flex-col gap-4 items-center h-1/3 justify-evenly`}
+					className={`${!isOpen && "hidden"} flex flex-col gap-4 items-center h-1/3 justify-evenly`}
 				>
 					<Links />
 				</div>
-				<div className="w-full text-center absolute bottom-10">
+				<div className={`${!isOpen && "hidden"} w-full text-center absolute bottom-10`}>
 					<ToggleTheme />
 				</div>
 			</nav>
