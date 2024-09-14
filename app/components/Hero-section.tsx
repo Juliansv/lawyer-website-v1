@@ -27,6 +27,7 @@ const HeroSection = () => {
 					alt="banner"
 					fill={true}
 					className="object-cover absolute opacity-50"
+                    priority
 				/>
 			</div>
 		</section>
