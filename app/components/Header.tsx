@@ -39,7 +39,7 @@ const MobileMenu = () => {
 	return (
 		<div className="container mx-auto flex flex-wrap md:hidden items-center min-h-20 justify-between px-4">
 			<Logo />
-			<div className="md:hidden z-30">
+			<div className="md:hidden z-30 max-h-6">
 				<button
 					onClick={() => {
 						setIsOpen(true);
