@@ -16,7 +16,7 @@ const Contact = () => {
 						marginHeight={0}
 						marginWidth={0}
 						scrolling="no"
-						src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=-34.9045934,-57.9700218&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+						src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=-34.9045934,-57.9700218&ie=UTF8&t=&z=14&iwloc=B&output=embed"
 						style={{
 							filter: "grayscale(0) contrast(1.2) opacity(0.7)",
 						}}
@@ -121,7 +121,7 @@ const Contact = () => {
 						marginHeight={0}
 						marginWidth={0}
 						scrolling="no"
-						src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=-34.9045934,-57.9700218&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+						src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=-34.9045934,-57.9700218&ie=UTF8&t=&z=14&iwloc=B&output=embed"
 						style={{
 							filter: "grayscale(0) contrast(1.2) opacity(0.7)",
 						}}
