@@ -26,7 +26,7 @@ const HeroSection = () => {
 									Estudio juridico especializado en derecho
 									previsional de la seguridad social.
 								</p>
-								<Link href="https://wa.me/0221155422323" >
+								<Link href="https://wa.me/+540221155422323" >
                                     <WhatsappButton />
                                 </Link>
 							</div>
