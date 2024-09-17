@@ -17,17 +17,17 @@ const Footer = () => {
 					>
 						<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
 					</svg>
-					<span className="ml-3 text-xl dark:text-white">Daniela</span>
+					<span className="ml-3 text-xl dark:text-white"></span>
 				</a>
 				<p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-					© 2024 Daniela Mateo —
+					2024 Daniela Mateo —
 					<a
 						href="#"
 						className="text-gray-600 ml-1"
 						rel="noopener noreferrer"
 						target="_blank"
 					>
-						@DanielaMateo
+						Estudio Provisional
 					</a>
 				</p>
 				<span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
