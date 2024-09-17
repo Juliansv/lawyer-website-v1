@@ -1,6 +1,9 @@
 const Service = () => {
 	return (
-		<section id="service" className="bg-alabaster-bg body-font dark:bg-wards-bg-800">
+		<section
+			id="service"
+			className="bg-alabaster-bg body-font dark:bg-wards-bg-800"
+		>
 			<div className="container px-5 py-24 mx-auto">
 				<div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
 					<h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 md:text-4xl text-woodsmoke-txt dark:text-porcelain-txt">
@@ -18,7 +21,7 @@ const Service = () => {
 				</div>
 				<div className="flex flex-wrap -m-4 md:px-32">
 					<div className="xl:w-1/3 md:w-1/2 p-4">
-						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[17rem]">
+						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[19rem]">
 							<div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
 								<svg
 									fill="none"
@@ -42,7 +45,7 @@ const Service = () => {
 						</div>
 					</div>
 					<div className="xl:w-1/3 md:w-1/2 p-4">
-						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[17rem]">
+						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[19rem]">
 							<div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
 								<svg
 									fill="none"
@@ -69,7 +72,7 @@ const Service = () => {
 						</div>
 					</div>
 					<div className="xl:w-1/3 md:w-1/2 p-4">
-						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[17rem]">
+						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[19rem]">
 							<div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
 								<svg
 									fill="none"
@@ -94,7 +97,7 @@ const Service = () => {
 						</div>
 					</div>
 					<div className="xl:w-1/3 md:w-1/2 p-4 w-full">
-						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[17rem]">
+						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[19rem]">
 							<div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
 								<svg
 									fill="none"
@@ -117,7 +120,7 @@ const Service = () => {
 						</div>
 					</div>
 					<div className="xl:w-1/3 md:w-1/2 p-4">
-						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[17rem]">
+						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[19rem]">
 							<div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
 								<svg
 									fill="none"
@@ -132,16 +135,20 @@ const Service = () => {
 								</svg>
 							</div>
 							<h2 className="text-lg  font-medium title-font mb-2 text-woodsmoke-txt dark:text-porcelain-txt">
-								Reclamos Asistidos
+								Actualización y Reajuste de Haberes
 							</h2>
 							<p className="leading-relaxed text-base text-woodsmoke-txt dark:text-porcelain-txt">
 								Patrocinar a clientes en sus reclamos ante
 								autoridades administrativas y judiciales.
+								Brindamos el respaldo necesario durante todo el
+								proceso, buscando resolver los conflictos de la
+								manera más eficaz, beneficiosa y en el menor
+								tiempo posible.
 							</p>
 						</div>
 					</div>
 					<div className="xl:w-1/3 md:w-1/2 p-4">
-						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[17rem]">
+						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[19rem]">
 							<div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
 								<svg
 									fill="none"

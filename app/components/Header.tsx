@@ -122,9 +122,10 @@ const Logo = () => {
 			>
 				<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
 			</svg>
-			<span className="text-xl md:text-3xl md:w-full text-woodsmoke-txt dark:text-porcelain-txt">
+			<div className="text-xl md:text-3xl md:w-full text-woodsmoke-txt dark:text-porcelain-txt flex flex-col">
 				Daniela Mateo
-			</span>
+                <span className="text-sm md:text-xl w-full leading-relaxed">Abogada</span>
+			</div>
 		</Link>
 	);
 };
