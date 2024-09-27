@@ -124,7 +124,7 @@ const Logo = () => {
 			</svg>
 			<div className="text-xl md:text-3xl md:w-full text-woodsmoke-txt dark:text-porcelain-txt flex flex-col">
 				Daniela Mateo
-                <span className="text-sm md:text-xl w-full leading-relaxed">Abogada</span>
+                <span className="text-sm md:text-xl w-full leading-relaxed text-woodsmoke-txt dark:text-porcelain-txt">Abogada</span>
 			</div>
 		</Link>
 	);
