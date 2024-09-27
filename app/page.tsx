@@ -5,10 +5,12 @@ import News from "./components/News";
 import Bullets from "./components/Bullets";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Preloader from "./components/Preloader";
 
 export default function Home() {
 	return (
 		<>
+            <Preloader />
             <Header />
 			<main>
 				<HeroSection />
