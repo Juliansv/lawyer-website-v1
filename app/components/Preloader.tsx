@@ -9,8 +9,8 @@ const Preloader = () => {
 				id="preloader-l"
 				className="h-screen bg-alabaster-bg w-1/2 absolute top-0 left-0-0 z-50 flex"
 			></div>
-            <span id="preloader-text" className="m-auto text-woodsmoke-txt z-[60]">
-                daniela
+            <span id="preloader-text" className="m-auto text-woodsmoke-txt text-[3rem] z-[60] text-center">
+                Estudio Previsional
             </span>
 		</div>
 	);
