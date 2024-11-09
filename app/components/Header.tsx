@@ -116,7 +116,7 @@ const Logo = () => {
 				stroke="currentColor"
 				strokeLinecap="round"
 				strokeLinejoin="round"
-				strokeWidth="1"
+				strokeWidth="0.1"
                 className="w-12 h-12 md:w-20 md:h-20 text-woodsmoke-txt dark:text-porcelain-txt dark:fill-white p-2 bg-alabaster-bg dark:bg-wards-bg-900 rounded-full"
 			>
 				<g data-name="07-law">
