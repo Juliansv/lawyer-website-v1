@@ -91,7 +91,7 @@ header > * {
 		animation: fade-in 1s ease-out forwards 2s;
 	}
 
-	header > * {
+	.slide-down {
 		animation: slide-down 1s ease-out forwards 1.3s;
 	}
 }
