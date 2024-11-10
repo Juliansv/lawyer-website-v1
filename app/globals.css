@@ -94,4 +94,8 @@ header > * {
 	.slide-down {
 		animation: slide-down 1s ease-out forwards 1.3s;
 	}
+
+	.slide-up {
+		animation: slide-up 1s ease-out forwards 1.3s;
+	}
 }
