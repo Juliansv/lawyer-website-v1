@@ -15,7 +15,7 @@ const ContactForm = () => {
 		register,
 		handleSubmit,
 		setError,
-		formState: { errors, isSubmitting, isDirty, isValid, isSubmitted },
+		formState: { errors, isSubmitting, isDirty, isValid, isSubmitSuccessful },
 	} = useForm<FormFields>({ resolver: zodResolver(schema) });
 
     const router = useRouter()
@@ -28,7 +28,7 @@ const ContactForm = () => {
 		}        
 	};
 
-    if (isSubmitted) {
+    if (isSubmitSuccessful) {
         router.push('/success')
     }
     
