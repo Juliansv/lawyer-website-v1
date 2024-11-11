@@ -5,6 +5,8 @@ import { SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
 import { schema } from "./FormSchema";
 import { sendEmail } from "@/app/actions";
+import { redirect } from "next/dist/server/api-utils";
+import { useRouter } from 'next/navigation'
 
 type FormFields = z.infer<typeof schema>;
 
@@ -13,17 +15,23 @@ const ContactForm = () => {
 		register,
 		handleSubmit,
 		setError,
-		formState: { errors, isSubmitting },
+		formState: { errors, isSubmitting, isDirty, isValid, isSubmitted },
 	} = useForm<FormFields>({ resolver: zodResolver(schema) });
+
+    const router = useRouter()
 
 	const onSubmit: SubmitHandler<FormFields> = async (data: FormFields) => {
 		try {
 			const response = await sendEmail(data);
-			console.log(response);
 		} catch (error) {
 			setError("root", { message: "Error en root" });
-		}
+		}        
 	};
+
+    if (isSubmitted) {
+        router.push('/success')
+    }
+    
 	return (
 		<div className="w-full max-w-xl xl:w-5/12">
 			<div className="bg-alabaster-bg rounded shadow-2xl p-7 sm:p-10">
@@ -115,7 +123,7 @@ const ContactForm = () => {
 						<button
 							type="submit"
 							disabled={isSubmitting}
-							className="text-porcelain-txt bg-boctonic-acc border-0 py-2 px-6 focus:outline-none hover:bg-persian-blue-prim rounded text-lg"
+							className={`${!isDirty || !isValid ? "opacity-70" : ""} text-porcelain-txt bg-boctonic-acc border-0 py-2 px-6 focus:outline-none hover:bg-persian-blue-prim rounded text-lg`}
 						>
 							{isSubmitting ? "Enviando..." : "Enviar"}
 						</button>
