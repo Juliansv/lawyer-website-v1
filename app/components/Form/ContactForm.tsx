@@ -45,7 +45,7 @@ const ContactForm = () => {
 								htmlFor="name"
 								className="leading-7 text-sm text-woodsmoke-txt "
 							>
-								Nombre y Apellido
+								Nombre y Apellido*
 							</label>
 							<input
 								{...register("name")}
@@ -65,7 +65,7 @@ const ContactForm = () => {
 								htmlFor="phone"
 								className="leading-7 text-sm text-woodsmoke-txt "
 							>
-								Telefono
+								Telefono*
 							</label>
 							<input
 								{...register("phone")}
@@ -86,7 +86,7 @@ const ContactForm = () => {
 								htmlFor="email"
 								className="leading-7 text-sm text-woodsmoke-txt "
 							>
-								Email
+								Email*
 							</label>
 							<input
 								{...register("email")}
@@ -106,7 +106,7 @@ const ContactForm = () => {
 								htmlFor="message"
 								className="leading-7 text-sm text-woodsmoke-txt "
 							>
-								Escriba su consulta
+								Escriba su consulta*
 							</label>
 							<textarea
 								{...register("message")}

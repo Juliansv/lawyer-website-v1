@@ -90,7 +90,7 @@ const MobileMenu = () => {
 							viewBox="0 -960 960 960"
 							width="24px"
 							id="close"
-							className="cursor-pointer dark:fill-porcelain-txt md:hidden"
+							className="cursor-pointer dark:fill-porcelain-txt md:hidden duration-0"
 						>
 							<path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
 						</svg>
@@ -167,7 +167,7 @@ const Links = () => {
 				<span className="w-6 h-6">
 					<UserIcon />
 				</span>
-                <span>
+                <span className="duration-0">
 				    Contacto
                 </span>
 			</Link>
