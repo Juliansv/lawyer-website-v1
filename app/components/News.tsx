@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 const News = () => {
+    const newsImage = "https://utfs.io/f/vkK1Ch6wtg4lLtdxEB7r5yDd94PglxCvQMSunBOqf23RU6bh";
+
 	return (
 		<section id="news" className=" body-font bg-alabaster-drk dark:bg-wards-bg-900">
 			<div className="container md:px-32 md:py-24 mx-auto p-4 py-10">
@@ -18,7 +20,7 @@ const News = () => {
 								alt="content"
 								fill={true}
 								className="object-cover object-center h-full w-full absolute"
-								src="/images/banner.jpg"
+								src={newsImage}
 							/>
 						</div>
 						<h2 className="text-xl font-medium title-font text-woodsmoke-txt dark:text-porcelain-txt mt-5">
@@ -50,7 +52,7 @@ const News = () => {
 								alt="content"
 								fill={true}
 								className="object-cover object-center h-full w-full absolute"
-								src="/images/banner.jpg"
+								src={newsImage}
 							/>
 						</div>
 						<h2 className="text-xl font-medium title-font text-woodsmoke-txt dark:text-porcelain-txt mt-5">
@@ -82,7 +84,7 @@ const News = () => {
 								alt="content"
 								fill={true}
 								className="object-cover object-center h-full w-full absolute"
-								src="/images/banner.jpg"
+								src={newsImage}
 							/>
 						</div>
 						<h2 className="text-xl font-medium title-font text-woodsmoke-txt dark:text-porcelain-txt mt-5">

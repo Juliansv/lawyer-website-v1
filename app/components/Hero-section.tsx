@@ -4,18 +4,20 @@ import WhatsappButton from "./Whatsapp-button";
 import ContactForm from "./Form/ContactForm";
 
 const HeroSection = () => {
+    const heroImage = "https://utfs.io/f/vkK1Ch6wtg4laNbINkAQFHYTxfAVvbNJm73D0KIgdn6hGW98"
 	return (
 		<section id="image-banner" className="">
 			<div className="relative">
 				<Image
-					src="https://images.pexels.com/photos/3747463/pexels-photo-3747463.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+					src={heroImage}
 					className="absolute inset-0 object-cover w-full h-full"
 					alt=""
                     fill
+                    priority={true}
 				/>
 				<div className="relative bg-wards-bg-900 bg-opacity-75">
 					<div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-4 lg:py-20">
-						<div className="slide-up flex flex-col items-center justify-between xl:flex-row">
+						<div className="slide-up fade-in opacity-0 flex flex-col items-center justify-between xl:flex-row">
 							<div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
 								<h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-porcelain-txt sm:text-5xl sm:leading-none">
 									Estudio Previsional{" "}
