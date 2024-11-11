@@ -225,11 +225,11 @@ export const HammerIcon = () => (
 		xmlns="http://www.w3.org/2000/svg"
 		fill="#000000"
 	>
-		<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+		<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 		<g
 			id="SVGRepo_tracerCarrier"
-			stroke-linecap="round"
-			stroke-linejoin="round"
+			strokeLinecap="round"
+			strokeLinejoin="round"
 		></g>
 		<g id="SVGRepo_iconCarrier">
 			{" "}
@@ -239,42 +239,42 @@ export const HammerIcon = () => (
 					d="M750.622,68.36h18.964a1.5,1.5,0,0,1,.891,1.117v2.305c0,.466-.654.578-.891.578H750.622c-.237,0-.145-.112-.145-.578V69.477C750.477,69.012,750.385,68.36,750.622,68.36Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 				<path
 					d="M747.982,72.36h24.244c.3,0,.251.635.251,1.091v2.257c0,.456.052.652-.251.652H747.982c-.3,0-.505-.2-.505-.652V73.451C747.477,73,747.678,72.36,747.982,72.36Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 				<path
 					d="M738.629,46.481l13.595-13.595c.17-.17.6-.021.95.334l1.757,1.757c.354.354.5.78.334.95l-13.6,13.6c-.17.17-.595.02-.95-.334l-1.757-1.757C738.609,47.076,738.459,46.651,738.629,46.481Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 				<path
 					d="M752.58,60.432l13.595-13.595c.17-.17.6-.021.95.334l1.757,1.757c.354.354.5.78.334.95l-13.6,13.6c-.17.17-.6.02-.95-.335l-1.757-1.756C752.559,61.027,752.41,60.6,752.58,60.432Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 				<rect
 					width="16.446"
 					height="15.429"
 					transform="translate(742.653 48.539) rotate(-45)"
-					stroke-width="1"
+					strokeWidth="1"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
+					strokeLinecap="round"
+					strokeLinejoin="round"
 					fill="none"
 				></rect>{" "}
 				<path
@@ -282,9 +282,9 @@ export const HammerIcon = () => (
 					transform="translate(728.906 67.28) rotate(-45)"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 			</g>{" "}
 		</g>
@@ -297,11 +297,11 @@ export const ClockIcon = () => (
 		xmlns="http://www.w3.org/2000/svg"
 		fill="#000000"
 	>
-		<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+		<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 		<g
 			id="SVGRepo_tracerCarrier"
-			stroke-linecap="round"
-			stroke-linejoin="round"
+			strokeLinecap="round"
+			strokeLinejoin="round"
 		></g>
 		<g id="SVGRepo_iconCarrier">
 			{" "}
@@ -311,41 +311,41 @@ export const ClockIcon = () => (
 					d="M932,121.36h24.911c.312,0,.565.367.565.835v2.318c0,.468-.253.847-.565.847H932c-.311,0-.524-.379-.524-.847v-2.318C931.477,121.727,931.69,121.36,932,121.36Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 				<path
 					d="M932,162.36h24.911c.312,0,.565-.41.565-.872V159.2c0-.462-.253-.837-.565-.837H932c-.311,0-.524.375-.524.837v2.291C931.477,161.95,931.69,162.36,932,162.36Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 				<path
 					d="M955.477,128.334V125.36h-22v3.115a13.048,13.048,0,0,0,5.021,10.263l3.832,2.968-3.843,2.968a13.041,13.041,0,0,0-5.01,10.264v3.422h22v-3.281a12.791,12.791,0,0,0-4.923-10.4l-3.842-2.974,3.785-2.973A12.846,12.846,0,0,0,955.477,128.334Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 				<path
 					d="M944.893,148.442c-.006.005,0-.005,0,0s.006.08,0,.075a20.213,20.213,0,0,0-8.792,9.843h17.181A20.972,20.972,0,0,0,944.893,148.442Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 				<path
 					d="M944.477,132.36H937.47a12.623,12.623,0,0,0,7,6.266l0,0,0,0a12.623,12.623,0,0,0,7-6.266Z"
 					fill="none"
 					stroke="#3A3BCD"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="1"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="1"
 				></path>{" "}
 			</g>{" "}
 		</g>
@@ -434,6 +434,248 @@ export const BalanceIcon = () => (
 					strokeLinejoin="round"
 					strokeWidth="1"
 				></path>{" "}
+			</g>{" "}
+		</g>
+	</svg>
+);
+
+export const BriefcaseTwoIcon = () => (
+	<svg
+		viewBox="0 0 32 32"
+		enableBackground="new 0 0 32 32"
+		id="Stock_cut"
+		version="1.1"
+		xmlSpace="preserve"
+		xmlns="http://www.w3.org/2000/svg"
+		xmlnsXlink="http://www.w3.org/1999/xlink"
+		fill="#000000"
+	>
+		<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+		<g
+			id="SVGRepo_tracerCarrier"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		></g>
+		<g id="SVGRepo_iconCarrier">
+			{" "}
+			<desc></desc>{" "}
+			<g>
+				{" "}
+				<rect
+					fill="none"
+					height="24"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					width="30"
+					x="1"
+					y="7"
+				></rect>{" "}
+				<path
+					d="M31,7H1v6 c0,2.209,1.791,4,4,4h22c2.209,0,4-1.791,4-4V7z"
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+				></path>{" "}
+				<path
+					d="M8,7V3 c0-1.105,0.895-2,2-2h12c1.105,0,2,0.895,2,2v4"
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+				></path>{" "}
+				<path
+					d="M16,21L16,21 c-1.105,0-2-0.895-2-2v-4c0-1.105,0.895-2,2-2h0c1.105,0,2,0.895,2,2v4C18,20.105,17.105,21,16,21z"
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+				></path>{" "}
+				<line
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					x1="18"
+					x2="14"
+					y1="17"
+					y2="17"
+				></line>{" "}
+			</g>{" "}
+		</g>
+	</svg>
+);
+
+export const NewsIcon = () => (
+	<svg
+		viewBox="0 0 32 32"
+		enableBackground="new 0 0 32 32"
+		id="Stock_cut"
+		version="1.1"
+		xmlSpace="preserve"
+		xmlns="http://www.w3.org/2000/svg"
+		xmlnsXlink="http://www.w3.org/1999/xlink"
+		fill="#000000"
+	>
+		<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+		<g
+			id="SVGRepo_tracerCarrier"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		></g>
+		<g id="SVGRepo_iconCarrier">
+			{" "}
+			<desc></desc>{" "}
+			<g>
+				{" "}
+				<path
+					d="M25,3V1H3v28 c0,1.105,0.895,2,2,2h22c1.105,0,2-0.895,2-2V3H25z"
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+				></path>{" "}
+				<rect
+					fill="none"
+					height="6"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					width="14"
+					x="7"
+					y="5"
+				></rect>{" "}
+				<line
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					x1="25"
+					x2="25"
+					y1="3"
+					y2="24"
+				></line>{" "}
+				<line
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					x1="25"
+					x2="25"
+					y1="26"
+					y2="28"
+				></line>{" "}
+				<line
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					x1="6"
+					x2="22"
+					y1="15"
+					y2="15"
+				></line>{" "}
+				<line
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					x1="6"
+					x2="22"
+					y1="19"
+					y2="19"
+				></line>{" "}
+				<line
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					x1="6"
+					x2="18"
+					y1="23"
+					y2="23"
+				></line>{" "}
+			</g>{" "}
+		</g>
+	</svg>
+);
+
+export const UserIcon = () => (
+	<svg
+		viewBox="0 0 32 32"
+		enableBackground="new 0 0 32 32"
+		id="Stock_cut"
+		version="1.1"
+		xmlSpace="preserve"
+		xmlns="http://www.w3.org/2000/svg"
+		xmlnsXlink="http://www.w3.org/1999/xlink"
+		fill="#000000"
+	>
+		<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+		<g
+			id="SVGRepo_tracerCarrier"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		></g>
+		<g id="SVGRepo_iconCarrier">
+			{" "}
+			<desc></desc>{" "}
+			<g>
+				{" "}
+				<rect
+					fill="none"
+					height="22"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					width="30"
+					x="1"
+					y="5"
+				></rect>{" "}
+				<polyline
+					fill="none"
+					points="1,5 16,20 31,5 "
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+				></polyline>{" "}
+				<line
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					x1="1"
+					x2="12"
+					y1="27"
+					y2="16"
+				></line>{" "}
+				<line
+					fill="none"
+					stroke="#3A3BCD"
+					strokeLinejoin="round"
+					strokeMiterlimit="10"
+					strokeWidth="2"
+					x1="31"
+					x2="20"
+					y1="27"
+					y2="16"
+				></line>{" "}
 			</g>{" "}
 		</g>
 	</svg>

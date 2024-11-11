@@ -3,6 +3,7 @@
 import Link from "next/link";
 import ToggleTheme from "./ToggleTheme";
 import { useEffect, useState } from "react";
+import { BriefcaseTwoIcon, NewsIcon, UserIcon } from "./Icons";
 
 const Header = () => {
 	return (
@@ -18,7 +19,24 @@ const DesktopMenu = () => {
 		<div className="hidden container md:mx-auto md:flex md:justify-between slide-down">
 			<Logo />
 			<div className="flex grow gap-6 self-center text-lg place-content-center absolute w-full">
-				<Links />
+				<Link
+					href="#service"
+					className="hover:text-persian-blue-prim text-woodsmoke-txt dark:text-porcelain-txt dark:hover:text-azure-acc font-medium"
+				>
+					Servicios
+				</Link>
+				<Link
+					href="#news"
+					className="hover:text-persian-blue-prim text-woodsmoke-txt dark:text-porcelain-txt dark:hover:text-azure-acc font-medium"
+				>
+					Noticias
+				</Link>
+				<Link
+					href="#contact"
+					className="hover:text-persian-blue-prim text-woodsmoke-txt dark:text-porcelain-txt dark:hover:text-azure-acc font-medium"
+				>
+					Contacto
+				</Link>
 			</div>
 			<ToggleTheme />
 		</div>
@@ -81,7 +99,7 @@ const MobileMenu = () => {
 				<div
 					className={`${
 						!isOpen ? "hidden" : ""
-					} flex flex-col gap-4 items-center h-1/3 justify-evenly`}
+					} flex flex-col gap-2`}
 					onClick={() => setIsOpen(false)}
 				>
 					<Links />
@@ -117,7 +135,7 @@ const Logo = () => {
 				strokeLinecap="round"
 				strokeLinejoin="round"
 				strokeWidth="0.1"
-                className="w-12 h-12 md:w-20 md:h-20 text-woodsmoke-txt dark:text-porcelain-txt dark:fill-white p-2 bg-alabaster-bg dark:bg-wards-bg-900 rounded-full"
+				className="w-12 h-12 md:w-20 md:h-20 text-woodsmoke-txt dark:text-porcelain-txt dark:fill-white p-2 bg-alabaster-bg dark:bg-wards-bg-900 rounded-full"
 			>
 				<g data-name="07-law">
 					<path d="M25 48a1 1 0 0 1-.447-.1l-16-8A1 1 0 0 1 8 39a3.8 3.8 0 0 1 5.1-3.573l7.873 3.473.5-.25A3.036 3.036 0 0 1 21 37.013 2.948 2.948 0 0 1 23.888 34h3.152c.634-.909 2.416-2 7.31-2 7.1 0 7.65 2.3 7.65 3v10a1 1 0 0 1-.868.991C38.607 46.327 25.967 48 25 48zm-14.909-9.573 15.118 7.559c1.506-.129 9.364-1.144 14.791-1.862v-8.981C39.847 34.95 38.86 34 34.35 34c-4.661 0-5.559 1.014-5.662 1.16a1 1 0 0 1-.988.84h-3.812a1.007 1.007 0 0 0 0 2H31v2h-7.112a2.878 2.878 0 0 1-.545-.053l-1.9.948a1 1 0 0 1-.85.02l-8.241-3.633a1.811 1.811 0 0 0-2.265 1.145zM28.7 35zm0 0zm0 0z" />
@@ -144,21 +162,32 @@ const Links = () => {
 		<>
 			<Link
 				href="#service"
-				className="hover:text-persian-blue-prim text-woodsmoke-txt dark:text-porcelain-txt dark:hover:text-azure-acc font-medium"
+				className=" text-woodsmoke-txt dark:text-porcelain-txt font-medium flex items-center m-auto gap-6 h-16 w-1/2"
 			>
+				<span className="w-6 h-6">
+					<BriefcaseTwoIcon />
+				</span>
 				Servicios
 			</Link>
 			<Link
 				href="#news"
-				className="hover:text-persian-blue-prim text-woodsmoke-txt dark:text-porcelain-txt dark:hover:text-azure-acc font-medium"
+				className=" text-woodsmoke-txt dark:text-porcelain-txt font-medium flex items-center m-auto gap-6 h-16 w-1/2"
 			>
+				<span className="w-6 h-6">
+					<NewsIcon />
+				</span>
 				Noticias
 			</Link>
 			<Link
 				href="#contact"
-				className="hover:text-persian-blue-prim text-woodsmoke-txt dark:text-porcelain-txt dark:hover:text-azure-acc font-medium"
+				className=" text-woodsmoke-txt dark:text-porcelain-txt font-medium flex items-center m-auto gap-6 h-16 w-1/2"
 			>
-				Contacto
+				<span className="w-6 h-6">
+					<UserIcon />
+				</span>
+                <span>
+				    Contacto
+                </span>
 			</Link>
 		</>
 	);
