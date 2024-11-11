@@ -1,4 +1,11 @@
-import { BriefcaseIcon, CalculatorIcon, LawyerIcon, PlanningIcon, SupportIcon, UpdateIcon } from "@/app/components/Icons";
+import {
+	BriefcaseIcon,
+	CalculatorIcon,
+	LawyerIcon,
+	PlanningIcon,
+	SupportIcon,
+	UpdateIcon,
+} from "@/app/components/Icons";
 
 const Service = () => {
 	return (
@@ -68,7 +75,7 @@ const Service = () => {
 					<div className="xl:w-1/3 md:w-1/2 p-4 w-full">
 						<div className="border border-persian-blue-prim dark:border-jordi-blue-prim p-6 rounded-lg md:min-h-[19rem]">
 							<div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                                <PlanningIcon />
+								<PlanningIcon />
 							</div>
 							<h2 className="text-lg  font-medium title-font mb-2 text-woodsmoke-txt dark:text-porcelain-txt">
 								Planificación Estratégica
@@ -87,12 +94,9 @@ const Service = () => {
 								Actualización y Reajuste de Haberes
 							</h2>
 							<p className="leading-relaxed text-base text-woodsmoke-txt dark:text-porcelain-txt">
-								Patrocinar a clientes en sus reclamos ante
-								autoridades administrativas y judiciales.
-								Brindamos el respaldo necesario durante todo el
-								proceso, buscando resolver los conflictos de la
-								manera más eficaz, beneficiosa y en el menor
-								tiempo posible.
+								Patrocinamos a clientes en sus reclamos ante
+								autoridades, brindando respaldo para resolver
+								conflictos de forma eficaz y rápida.
 							</p>
 						</div>
 					</div>
