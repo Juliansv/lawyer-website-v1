@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const Header = () => {
 	return (
-		<header className="body-font bg-alabaster-bg dark:bg-wards-bg-900 md:px-6 lg:px-20">
+		<header className="body-font bg-alabaster-bg dark:bg-wards-bg-900 md:px-6 lg:px-20 h-auto">
 			<MobileMenu />
 			<DesktopMenu />
 		</header>
@@ -107,8 +107,8 @@ const MobileMenu = () => {
 const Logo = () => {
 	return (
 		<Link
-			href="#"
-			className="flex gap-2 order-first lg:order-none lg:w-1/4 title-font font-medium items-center lg:items-center lg:justify-center md:mb-0"
+			href="/"
+			className="z-10 flex gap-2 order-first lg:order-none lg:w-1/4 title-font font-medium items-center lg:items-center lg:justify-center md:mb-0"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
