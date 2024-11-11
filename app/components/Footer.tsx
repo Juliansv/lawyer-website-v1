@@ -12,7 +12,7 @@ const Footer = () => {
 						strokeLinecap="round"
 						strokeLinejoin="round"
 						strokeWidth="0.1"
-						className="w-14 h-14 text-woodsmoke-txt dark:text-porcelain-txt dark:fill-white p-2 bg-alabaster-bg dark:bg-wards-bg-900 rounded-full"
+						className="w-14 h-14 text-woodsmoke-txt dark:text-porcelain-txt dark:fill-white p-2 rounded-full"
 					>
 						<g data-name="07-law">
 							<path d="M25 48a1 1 0 0 1-.447-.1l-16-8A1 1 0 0 1 8 39a3.8 3.8 0 0 1 5.1-3.573l7.873 3.473.5-.25A3.036 3.036 0 0 1 21 37.013 2.948 2.948 0 0 1 23.888 34h3.152c.634-.909 2.416-2 7.31-2 7.1 0 7.65 2.3 7.65 3v10a1 1 0 0 1-.868.991C38.607 46.327 25.967 48 25 48zm-14.909-9.573 15.118 7.559c1.506-.129 9.364-1.144 14.791-1.862v-8.981C39.847 34.95 38.86 34 34.35 34c-4.661 0-5.559 1.014-5.662 1.16a1 1 0 0 1-.988.84h-3.812a1.007 1.007 0 0 0 0 2H31v2h-7.112a2.878 2.878 0 0 1-.545-.053l-1.9.948a1 1 0 0 1-.85.02l-8.241-3.633a1.811 1.811 0 0 0-2.265 1.145zM28.7 35zm0 0zm0 0z" />
