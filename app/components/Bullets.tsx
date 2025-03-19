@@ -2,7 +2,10 @@ import { BalanceIcon, ClockIcon, HammerIcon, LawyerIcon } from "./Icons";
 
 const Bullets = () => {
 	return (
-		<section id="bullets" className="text-porcelain-txt body-font bg-alabaster-bg dark:bg-wards-bg-800">
+		<section
+			id="bullets"
+			className="text-porcelain-txt body-font bg-alabaster-bg dark:bg-wards-bg-800"
+		>
 			<div className="container px-5 py-24 mx-auto">
 				<div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-boctonic-acc sm:flex-row flex-col">
 					<div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-alabaster-drk text-boctonic-acc flex-shrink-0 md:p-8 p-4">
@@ -34,8 +37,8 @@ const Bullets = () => {
 					</div>
 					<div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
 						<p className="leading-relaxed text-2xl text-woodsmoke-txt dark:text-porcelain-txt">
-							Soy abogada Especialistas en Jubilaciones, mantener
-							a mis clientes permanentemente informados acerca del
+							Soy abogada Especialista en Jubilaciones, mantener a
+							mis clientes permanentemente informados acerca del
 							estado de su gestión es una de las prioridades
 						</p>
 					</div>
